@@ -48,12 +48,15 @@ class Solution:
         return(ans)
 ```
 ---
+```
 결론 : 
 그냥 매우 간단한 반복문으로 풀기 * extend랑 append 차이점 알아야함 ! extend는 [1,2,3,4] 이렇게 말그래도 추가하는거지만 append 는 [1,2,3,[4]]그냥 통쨰로 넣어버린다
+```
 ---
+```
 結論 : 
 應該有更快的方法，但我這一題直接用最單純的for迴圈去處理，但一定要知道extend和append的差別，差別在於[1,2,3,4]和[1,2,3,[4]]前面是extend後面是append感覺到差別嗎? 一個是把iterable裡的東西放進去(extend)，另外一個是把一個元素放進去(append)。
-
+```
 ---
 ### Result
 Runtime: 25 ms, faster than 98.96% of Python3 online submissions for Letter Combinations of a Phone Number.\
