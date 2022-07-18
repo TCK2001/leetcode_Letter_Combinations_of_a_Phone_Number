@@ -42,7 +42,7 @@ class Solution:
                 else: # 1개 이상의 값일때 ...
                     sub = []
                     for j in ans: # 첫번째 값으로
-                        for k in key[i]: # 두번째부터 하나하나씩 모든 가능성을 대조해서 
+                        for k in key[i]: # 두번째부터 하나 하나씩 모든 가능성을 대조해서 
                             sub.append(j + k) # 넣음
                     ans = sub # 모든회문을 돌고나면 마지막 답
         return(ans)
